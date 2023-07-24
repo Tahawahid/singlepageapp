@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Analytics from "./components/Analytics";
+import {Navbar, Hero, Analytics, Newsletter} from "./components/.";
 
 function App() {
   return (
@@ -9,6 +7,7 @@ function App() {
       <Navbar />
       <Hero />
       <Analytics />
+      <Newsletter />
     </div>
   );
 }

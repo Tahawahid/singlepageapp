@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, Hero, Analytics, Newsletter} from "./components/.";
+import {Navbar, Hero, Analytics, Newsletter , Cards,Footer} from "./components/.";
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
+      <Cards />
+      <Footer />
     </div>
   );
 }
